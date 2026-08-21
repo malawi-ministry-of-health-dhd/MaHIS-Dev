@@ -1,0 +1,1 @@
+import{StagesService as i}from"./stages_service-DN9_tfZD.js";import{createOfflineVisit as s}from"./visits_service-CA0NRAS1.js";const o=async(t,e={})=>{switch(t){case"visits":return s(e);case"stages":return i.addPatientToStageOffline(e)}};export{o as postOfflineJson};
