@@ -1,1 +1,0 @@
-import o from"./Disposition-CJG0SHcX.js";import{d as t,B as i,z as e}from"../index-ComA_IN5.js";const a=t({__name:"Disposition",setup(s){return(n,p)=>(e(),i(o,{"completion-route":"/ipd/disposition-list","specialty-completion-route":"/ipd/consultation-list"}))}});export{a as default};
