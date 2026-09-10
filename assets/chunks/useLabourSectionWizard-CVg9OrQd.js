@@ -1,1 +1,0 @@
-import{u as t}from"./useAncSectionWizard-3pb21hXT.js";function r(e){return t({...e,homeButtonText:e.homeButtonText??"Return to Labour Home",reviewOnlyWhenSaved:e.reviewOnlyWhenSaved??!0,allowSavedSectionEdit:e.allowSavedSectionEdit??!1})}export{r as u};
