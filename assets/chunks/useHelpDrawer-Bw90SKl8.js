@@ -1,0 +1,1 @@
+import{r}from"../index-D6KhiKw7.js";const e=r(!1),n=r("");function s(){function u(o){n.value=o,e.value=!0}function l(){e.value=!1}return{isOpen:e,currentHelpId:n,openHelp:u,closeHelp:l}}export{s as u};
