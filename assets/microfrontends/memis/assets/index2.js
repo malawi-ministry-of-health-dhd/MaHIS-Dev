@@ -1,4 +1,4 @@
-import { L as LocalForageServiceInstance } from './LocalForageService.js';
+import { L as LocalForageService } from './LocalForageService.js';
 
 class DataStore {
   constructor() {
@@ -177,7 +177,7 @@ class QRConfigService extends DataStore {
   }
   async getQrConfig(programId) {
     try {
-      let config = await LocalForageServiceInstance.getItem("dataStore", "dataStore");
+      let config = await LocalForageService.getItem("dataStore", "dataStore");
       config = config?.qrCodesConfigurations;
       const qr = config?.configurations?.find(
         (q) => q?.source?.programId === programId
