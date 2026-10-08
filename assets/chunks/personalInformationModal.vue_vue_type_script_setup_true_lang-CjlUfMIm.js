@@ -1,0 +1,1 @@
+import{R as o}from"./Registration-Dd-NMoG3.js";import{d as e,j as r,q as t}from"../index-Di5Cj5iZ.js";const c=e({__name:"personalInformationModal",setup(a){return(n,s)=>(r(),t(o,{editMode:!0}))}});export{c as _};
