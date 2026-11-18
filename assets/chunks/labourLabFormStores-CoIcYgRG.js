@@ -1,1 +1,0 @@
-import{u as t}from"./useLabourLabInvestigationsPrefill-D826hm4o.js";import{f as a}from"../index-Ch8Tc4qo.js";import{a as n,c as r}from"./AncDemographicBar-DjaCzGDt.js";const b=()=>{const{labInvestigationsFormSection:o}=t();return{labourLabInvestigationsFormSection:a(()=>o.value)}},s=r("labourLabInvestigationsStore");function m(){n(s())}export{s as a,m as c,b as u};
